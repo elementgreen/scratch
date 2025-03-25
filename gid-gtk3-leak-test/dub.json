@@ -1,0 +1,9 @@
+{
+	"name": "gid-gtk3-leak-test",
+	"description": "giD Gtk3 leak test",
+  "targetType": "executable",
+	"sourceFiles": ["app.d"],
+	"dependencies": {
+		"gid:gtk3": {"path": "../../gid/" }
+	}
+}

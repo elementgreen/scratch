@@ -1,0 +1,9 @@
+{
+	"name": "gid-gtk4-leak-test",
+	"description": "giD Gtk4 leak test",
+  "targetType": "executable",
+	"sourceFiles": ["app.d"],
+	"dependencies": {
+		"gid:gtk4": {"path": "../../gid/" }
+	}
+}
